@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM| About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">      
+    <link rel="icon" type="image/x-icon" href="dumbell.png">
+</head>
+<body>
+    <nav>
+        <h1>Fitness<span>Club</span></h1>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About Us</a></li>
+            <li><a href="{{ url_for('manage') }}">Membership</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="text">
+            <h1 class="one">About Us</h1>
+            <h1 class="two">Why Choose Us?</h1>
+            <br>
+            <p>Expert Guidance: Certified trainers to lead your fitness journey.
+                <br>
+                <br>
+                Cutting-Edge Equipment: The latest tech for optimal results.
+                <br>
+                <br>
+                Motivating Community: Join a supportive fitness family.
+                <br>
+                <br>
+                Flexible Fitness: Train on your schedule, 24/7.</p>
+        </div>
+    </div>
+</body>
+</html>

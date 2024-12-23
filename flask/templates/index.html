@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+    <link rel="icon" type="image/x-icon" href="dumbell.png">
+</head>
+<body>
+    <nav>
+        <h1>Fitness<span>Club</span></h1>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About Us</a></li>
+            <li><a href="{{ url_for('manage') }}">Membership</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="text">
+            <h1>FITNESS CLUB.</h1>
+            <p>“I hated every minute of training, but I said, Don't quit. Suffer now and live the rest of your life as <br> a champion.” - Muhammad Ali
+            </p>
+            <button type="button">Join Now</button>
+        </div>
+    </div>
+</body>
+</html>
